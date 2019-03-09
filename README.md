@@ -1,1 +1,2 @@
-TinDog Starting Files
+# tindog
+web page practice (tinder mimic)
