@@ -13,6 +13,12 @@ h1 {
     color: #ffffff;
 }
 
+h2 {
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: bold;
+}
+
 .navbar {
     margin-bottom: 4.5rem;
     padding: 0;
@@ -50,6 +56,8 @@ a.navbar-brand {
     transform: rotate(25deg);
 }
 
+/* Features Section */
+
 #features {
     text-align: center;
     width: 75%;
@@ -77,4 +85,36 @@ a.navbar-brand {
 
 #features p {
     color: #8f8f8f;
+}
+
+/* Testimonials */
+
+#testimonials {
+    text-align: center;
+    background-color: #ef8172;
+    color: #ffffff;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+.testimonial-img {
+    width: 10%;
+    border-radius: 50%;
+    margin: 0.5rem;
+}
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+#press img {
+    margin: 1rem;
+}
+
+.press-logo {
+    width: 15%;
 }
