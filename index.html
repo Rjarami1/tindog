@@ -5,57 +5,73 @@
   <meta charset="utf-8">
   <title>TinDog</title>
 
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,900|Ubuntu&amp;subset=greek" rel="stylesheet"> 
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!--Link of google fonts for using the Ubuntu and Montserrat fonts-->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,900|Ubuntu&amp;subset=greek" rel="stylesheet">
+  <!--Link of bootstrap 4 framework-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+    crossorigin="anonymous">
+  <!--Link of fontawesome for using different open source icons-->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+    crossorigin="anonymous">
+  <!--URL for our css style sheets-->
   <link rel="stylesheet" href="css/styles.css">
 
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <!--Bootstrap 4's javascript scripts links-->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
 </head>
 
 <body>
 
   <section id="title">
 
-    <!-- Nav Bar -->
+    <div class="container-fluid">
+      <!-- Nav Bar -->
 
-    <nav class="navbar navbar-expand-lg navbar-dark">
-    
-      <a class="navbar-brand" href="#">tindog</a>
-      
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+      <nav class="navbar navbar-expand-lg navbar-dark">
+
+        <a class="navbar-brand" href="#">tindog</a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+          aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
-      </button>
-      
-      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
           <ul class="navbar-nav ml-auto">
-              <li class="nav-item">
-                  <a class="nav-link" href="#">Contact</a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link" href="#">Pricing</a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link" href="#">Download</a>
-              </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Download</a>
+            </li>
           </ul>
-      </div>
-    </nav>
+        </div>
+      </nav>
 
 
-    <!-- Title -->
-    <div class="row">
-      <div class="col-lg-6">
-        <h1>Meet new and interesting dogs nearby.</h1>
-        <button type="button">Download</button>
-        <button type="button">Download</button>
+      <!-- Title -->
+      <div class="row">
+        <div class="col-lg-6">
+          <h1>Meet new and interesting dogs nearby.</h1>
+          <button type="button" class="btn btn-dark btn-lg download-button"><i class="fab fa-apple"></i> Download</button>
+          <button type="button" class="btn btn-outline-light btn-lg download-button"><i class="fab fa-google-play"></i>
+            Download</button>
+        </div>
+        <div class="col-lg-6">
+          <img id="title-img" src="images/iphone6.png" alt="iphone-mockup">
+        </div>
       </div>
-      <div class="col-lg-6">
-        <img src="images/iphone6.png" alt="iphone-mockup">
-      </div>
+
     </div>
-    
+    <!--.container-fluid-->
 
   </section>
 
@@ -64,14 +80,25 @@
 
   <section id="features">
 
-    <h3>Easy to use.</h3>
-    <p>So easy to use, even your dog could do it.</p>
+    <div class="row">
+      <div class="col-lg-4 easy-to">
+        <i class="fas fa-check-circle"></i>
+        <h3>Easy to use.</h3>
+        <p>So easy to use, even your dog <br>could do it.</p>
+      </div>
 
-    <h3>Elite Clientele</h3>
-    <p>We have all the dogs, the greatest dogs.</p>
+      <div class="col-lg-4 elite-clients">
+        <i class="fas fa-bullseye"></i>
+        <h3>Elite Clientele</h3>
+        <p>We have all the dogs, the <br>greatest dogs.</p>
+      </div>
 
-    <h3>Guaranteed to work.</h3>
-    <p>Find the love of your dog's life or your money back.</p>
+      <div class="col-lg-4 guaranteed-work">
+        <i class="fas fa-heart"></i>
+        <h3>Guaranteed to work.</h3>
+        <p>Find the love of your dog's life  <br>or your money back.</p>
+      </div>
+    </div><!--.row-->
 
   </section>
 
