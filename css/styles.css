@@ -143,3 +143,38 @@ a.navbar-brand {
         transform: rotate(0);
     }
 }
+
+#cta {
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 5rem 10rem;
+}
+
+#cta h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 3rem;
+    color: #ffffff;
+}
+
+.download-button-cta {
+    margin: 5% 3% 0 0;
+}
+
+#footer {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 3rem 0;
+    line-height: 3; 
+}
+
+#footer a {
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+    margin-right: 10px;
+}
+
+#footer a:nth-last-of-type(1) {
+    margin-right: 0;
+}
